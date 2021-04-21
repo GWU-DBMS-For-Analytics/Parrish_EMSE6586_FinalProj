@@ -19,13 +19,7 @@ The goal of this project is to assess the influence of Elon’s account activity
     
     - Generate word clouds of hashtags (circle back on these when you have accounts grouped)
     
-    - On average, what hashtags are paired together?
-    
-    - Query using mongo for both time and hashtag frequency to generate plots of hashtags over time
-    
-    - Do this seperate from Elon's account and with just Elon's tweets
-    
-2.    Evaluate use of hashtags as a labelling technique:
+2.    **Ran out of time** Evaluate use of hashtags as a labelling technique:
 
     - Query tweet content only from mongo
     
@@ -37,7 +31,7 @@ The goal of this project is to assess the influence of Elon’s account activity
     
     - Again do this for just Elon and then just his followers
     
-3.   **If time!** Identify subgroups based on hashtag activity and perform network analysis to potentially cluster these groups based on relationship with Elon (does he have a scientific/technology network, political network, etc.?)
+3.   Identify subgroups based on hashtag activity and perform network analysis to potentially cluster these groups based on relationship with Elon (does he have a scientific/technology network, political network, etc.?)
 
     - Perform a graph traversal in arango to identify if certain hastags propagated from elon to followers. Use this information to develop subgroups.  Do members follow one another (aka double dependencies) or are they generally pulling these hashtags from Elon? Possibly a similar case with re-tweets.
 
